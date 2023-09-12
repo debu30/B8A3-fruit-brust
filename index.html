@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+
+  <!-- Daisi UI link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <!-- Tailwind LInk -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Customized link -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Css Links -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+
+
+
+<body class="container mx-auto justify-center ">
+
+  <!-- navbar section -->
+  <nav>
+    <!-- menu bar -->
+    <div class="navbar flex justify-between lg:bg-[#F85559] rounded-full lg:p-10 lg:text-white mt-12">
+
+
+      <!-- lg:navbar-start -->
+      <div class=" flex-1 ">
+        <div class="dropdown ">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Homepage</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+
+
+        <!-- large device -->
+
+        <div class="nav-menus">
+          <div class="flex gap-8 ">
+            <h6>Home</h6>
+            <h6>About Us</h6>
+            <h6>Shop</h6>
+            <h6>All Fruits</h6>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <!-- logo and text  lg:navbar-center-->
+      <div class=" flex-1">
+
+        <img src="images/logo.png" alt="">
+        <h1 class="lg:text-5xl font-bold">Fruit Brust</h1>
+      </div>
+
+
+
+      <!-- search box  navbar-end-->
+      <div class=" search-box relative flex-1">
+        <input type="text" placeholder="Type here" class="input rounded-full w-full max-w-xs" />
+        <div class="search-icon absolute">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+  </nav>
+
+
+
+  <!-- Banner Section -->
+
+  <div class="carousel w-full mt-14">
+    <div id="slide1" class="carousel-item  w-full relative">
+      <img class="z-10" src="images/banner1.png" class="w-full" />
+
+
+      <div  class="absolute z-20 text-white w-full h-full justify-center lg:mt-20 sm:27 text-center">
+        <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+        <h6 class="lg:text-xl mt-6">We supply highly quality organic products</h6>
+      <button class="btn bg-[#F85559] border-none text-white lg:mt-8">Shop Now</button>
+      </div>
+      
+
+
+      <div class="absolute z-30  flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn round-btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn  round-btn  btn-circle">❯</a>
+      </div>
+    </div> 
+
+
+
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="images/banner2.png" class="w-full" />
+      
+
+<div  class="absolute z-20 text-white top-20 left-96 justify-center text-center">
+  <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+  <h6 class="text-xl mt-6">We supply highly quality organic products</h6>
+<button class="btn bg-[#F85559] border-none text-white mt-8">Shop Now</button>
+</div>
+
+
+
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn round-btn  btn-circle">❮</a> 
+        <a href="#slide3" class="btn  round-btn btn-circle">❯</a>
+      </div>
+    </div> 
+
+
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="images/banner3.png" class="w-full" />
+      
+
+<div  class="absolute z-20 text-white top-20 left-96 justify-center text-center">
+  <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+  <h6 class="text-xl mt-6">We supply highly quality organic products</h6>
+<button class="btn bg-[#F85559] border-none text-white mt-8">Shop Now</button>
+</div>
+
+
+
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn  round-btn  btn-circle">❮</a> 
+        <a href="#slide4" class="btn  round-btn  btn-circle">❯</a>
+      </div>
+    </div> 
+
+
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="images/banner4.png" class="w-full" />
+      
+
+<div  class="absolute z-20 text-white top-20 left-96 justify-center text-center">
+  <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+  <h6 class="text-xl mt-6">We supply highly quality organic products</h6>
+<button class="btn bg-[#F85559] border-none text-white mt-8">Shop Now</button>
+</div>
+
+
+
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn  round-btn  btn-circle">❮</a> 
+        <a href="#slide1" class="btn  round-btn  btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deal of the Day section -->
+<!-- text section -->
+
+<section>
+  <div>
+
+    <!-- 1st -->
+<div>
+  <h1 class="lg:font-extrabold lg:text-5xl sm:text-xl ">Deal of the day</h1>
+  <p class="sm:text-sm lg:text-xl lg:w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>
+
+
+<!-- 2nd -->
+<div>
+
+
+
+</div>
+
+
+<div>
+
+</div>
+
+
+  </div>
+</section>
+
+
+</body>
+
+</html>

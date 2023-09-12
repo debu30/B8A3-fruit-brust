@@ -1,0 +1,34 @@
+*{
+    font-family: 'Lato'
+}
+
+.round-btn{
+    background-color: #121212;
+    color: white;
+    border: none;
+}
+
+.round-btn:hover{
+    border: 1px solid white;
+    background-color: gray;
+}
+
+
+@media screen and (max-width: 640px){
+.nav-menus{
+    display: none;
+}
+.search-box{
+    display: none;
+}
+
+}
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 641px){
+    .dropdown{
+        display: none;
+    }
+    
+    }
