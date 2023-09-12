@@ -21,6 +21,13 @@
 .search-box{
     display: none;
 }
+.deal-box{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
 
 }
 
