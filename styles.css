@@ -13,6 +13,13 @@
     background-color: gray;
 }
 
+/* meet the team section */
+/* .team-meat-section{
+    background-image: url(images/banner1.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+} */
 
 @media screen and (max-width: 640px){
 .nav-menus{
